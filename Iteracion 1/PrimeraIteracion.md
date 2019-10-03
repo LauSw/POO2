@@ -1,20 +1,21 @@
-#Aplicación web PetCenter
-Grupo: 
+# Aplicación web PetCenter
+## Grupo: 
 1.	Lopez Schwegler, Alejandro Nahuel
 2.	Seewald, Ana Laura
-**Visión**
+## Visión
 Una pagina web que ayudará a seguir el crecimiento de tus mascotas, también permitirá visualizar veterinarios y sus guardias para emergencias. Se registrarán las mascotas indicando su raza, y en base a la información de las mismas se dará avisos con respecto a vacunas, problemas específicos de la raza, etc. 
 
-**Lista de características**
+## Lista de características
   1.	Registro de mascotas (grupo familiar)
   2.	Visualización de veterinarios
   3.	Visualización de guardias de veterinarios
   4.	Consejos respecto a las mascotas del usuario
-**Análisis de Dominio**
+  
+## Análisis de Dominio
  
 
  
-**Casos de Uso**
+## Casos de Uso
 
 __Registrar Mascota__
 __Actores__: Usuario
@@ -28,14 +29,14 @@ __Flujo Principal__:
 __Flujos alternativos__:
 Si no ingresa los datos solicitados no puede finalizar el caso de uso.
 
-Generar Guardia
-Actores: Veterinario
-Objetivo: Permitir crear una guardia en un día y horario especifico
-Flujo Principal:
+__Generar Guardia__
+__Actores:__ Veterinario
+__Objetivo:__ Permitir crear una guardia en un día y horario especifico
+__Flujo Principal:__
 1.	El actor solicita crear una guardia
 2.	El sistema le solicita que ingrese la fecha de la misma y la ciudad.
 3.	El actor ingresa los datos y se genera una nueva guardia.
-Flujos alternativos:
+__Flujos alternativos:__
 Si la ciudad que desea ingresar no se encuentra disponible se le informara al usuario.
 Si no ingresa los datos solicitados no puede finalizar el caso de uso.
 
@@ -62,7 +63,7 @@ __Flujo Principal:__
 4.	El sistema le muestra toda la información referida.
 __Flujos alternativos:__
 -.
-##Arquitectura
+## Arquitectura
 •	Lenguaje: Java.
 •	SGBD: MySQL.
 •	Tecnologías relacionadas: GIT, NetBeans, Star UML, Power Architect.
