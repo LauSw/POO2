@@ -13,15 +13,22 @@ Una pagina web que ayudará a seguir el crecimiento de tus mascotas, también pe
   
 ## Análisis de Dominio
  
-
+Aca hay un analisis de dominio
  
 ## Casos de Uso
 
 __Registrar Mascota__
-__Actores__: Usuario
-__Objetivo__: Permite registrar una mascota a un grupo familiar.
-__Precondición__: El usuario debe haber seleccionado un grupo familiar previamente.
-__Flujo Principal__:
+
+__Actores:__ 
+Usuario
+
+__Objetivo:__ 
+Permite registrar una mascota a un grupo familiar.
+
+__Precondición:__ 
+El usuario debe haber seleccionado un grupo familiar previamente.
+
+__Flujo Principal:__
 1.	El actor solicita registrar una mascota.
 2.	El sistema solicita los datos de la mascota: nombre, fecha de nacimiento, raza, foto de perfil, y si quiere indicar algún/os veterinario/s al que esa mascota suele concurrir.
 3.	El actor ingresa los datos y solicita registrar.
